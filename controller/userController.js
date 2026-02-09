@@ -12,3 +12,7 @@ module.exports = {
     register,
     login
 }
+
+//MERN
+
+// M = mongoDB (NO SQL Databas)
