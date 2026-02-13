@@ -1,5 +1,12 @@
-console.log("Hello World")
+const express = require("express");
+const app = express();
 
-// Today we will study about MVC clean architecture and publish to github
+const PORT = 5000;
 
-// At first, we will learn about userside ...!
+app.listen(PORT, () => {
+    console.log(`Server is running on PORT ${PORT}`)
+} );
+
+app.get("/", (req, res) => {
+    res.send("Roshan Kumar Khadka")
+});
